@@ -1,0 +1,65 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Cache files for Sublime Text
+**/*.tmlanguage.cache
+**/*.tmPreferences.cache
+**/*.stTheme.cache
+
+# Workspace files are user-specific
+**/*.sublime-workspace
+**/*.sublime-project
+
+.vs
+
+# Ignore build folders
+**/build
+build*
+run.bat
+run.bat.in
+run.bat.txt
+*build
+build-docs/
+bin
+out
+/proj.android/.idea/*
+/proj.android/app/.cxx/*
+/proj.android/app/src/org/axmol/lib
+
+#clangd
+.cache
+
+
+Resources/*
+!Resources/Custom/
+Content*
+!Content/Custom
+
+CMakeCache.txt
+
+# clion
+cmake-build-*
+.idea
